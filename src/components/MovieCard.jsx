@@ -5,6 +5,7 @@ function MovieCard({movie}) {
     function onFavoriteClick(){
         alert("Clicked")
     }
+    
     return(
         <div className="movie-card">
             <div className="movie-poster">

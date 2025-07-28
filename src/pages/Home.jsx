@@ -1,15 +1,13 @@
 import MovieCard from "../components/MovieCard"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { searchMovies, getPopularMovies } from "../services/api"
 import "../css/Home.css"
 
 function Home() {
     const  [searchQuery, setSearchQuery] = useState ("");
+    const [movies, setMovies] = useState([]);
 
-    const movies = [
-        {id: 1, title: "John Wick", release_date: "2019"},
-        {id: 2, title: "Avengers", release_date: "2012"},
-        {id: 3, title: "Superman", release_date: "2025"},
-    ]
+    useEffect(() => {}, [])
 
     const handleSearch = (e) => {
         e.preventDefault()
