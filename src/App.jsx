@@ -1,4 +1,3 @@
-import MovieCard from './components/MovieCard'
 import Home from './pages/Home';
 import NavBar from './components/NavBar';
 import { Routes, Route } from 'react-router-dom'
