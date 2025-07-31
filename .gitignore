@@ -23,5 +23,5 @@ node_modules
 *.sln
 *.sw?
 
-#API
-.env
+# #API
+# .env
